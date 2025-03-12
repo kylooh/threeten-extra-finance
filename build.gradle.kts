@@ -16,5 +16,4 @@ repositories {
 
 dependencies {
     compileOnly("org.threeten:threeten-extra:1.8.0")
-    implementation(kotlin("stdlib-jdk8"))
 }
