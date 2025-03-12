@@ -1,5 +1,6 @@
 plugins {
     id("org.gradle.java")
+    id("org.gradle.java-library")
 }
 
 group = "kylooh.github.io"
@@ -15,5 +16,5 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.threeten:threeten-extra:1.8.0")
+    api("org.threeten:threeten-extra:1.8.0")
 }
